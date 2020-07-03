@@ -1,0 +1,261 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+/* header logo */
+.logo{
+    width: 200px;
+    height: 60px;
+    margin-left: 20px;
+}
+/* Navbar */
+
+.navbar-nav{
+    padding: 0px 20px ;
+}
+.nav-item .active{
+    color: #e74a2c!important;
+    font-size: 20px;
+}
+.nav-item a{
+    font-size: 20px;
+}
+.nav-item:hover a{
+    color: #e74a2c!important;
+    font-size: 20px;
+    transition: all .4s ease-in;
+}
+/* Main section */
+
+.firstsection{
+    background-color: #e7eaed;
+    width: 100%;
+    min-height: 100vh;
+    margin-top: 4px;
+    
+}
+.hello{
+    box-shadow: 0px 5px 10px #dddddd;
+}
+.h-title{
+    font-weight: bold;
+    margin-top: 50px;
+}
+.man{
+    margin:auto;
+    margin-top: 80px;
+}
+.big-text{
+    font-size: 50px;
+    margin: 20px 0;
+    color: #e74a2c;
+}
+.cbtn{
+     margin: 30px 10px;
+     width: 150px;
+     padding: 10px;
+     border-radius: 20px;
+}
+.btn-first{
+    background-color: #e74a2c;
+    color: #fff;
+}
+.btn-second{
+    background-color: transparent;
+    border: 1px solid #e74a2c;
+    transition: .4s linear;
+}
+.btn-second:hover{
+    background-color: #e74a2c;
+    color: #fff;
+    border: none;
+    box-shadow: 5px 5px 10px #999;
+    transition: all .3s ease-in;
+}
+/* About Us section */
+.second-section{
+    font-family: 'open sns',sans-serif;
+    width: 100%;
+}
+.about-section{
+    background-color: #f1f1f1;
+    width: 100%;
+    padding: 40px 0;
+}
+.inner-width{
+    max-width: 1000px;
+    overflow: hidden;
+    padding: 0 20px;
+    margin: auto;
+    margin-top: 50px;
+}
+.about-section h1{
+    text-align: center;
+}
+.border{
+    width: 100px;
+    height: 3px;
+    background-color: #e74a2c;
+    margin: 20px auto;
+    margin-bottom: 70px;
+    padding: 2px 0;
+}
+.about-section-row{
+    display: flex;
+    flex-wrap: wrap;
+}
+.about-section-col{
+    flex: 50%;
+}
+.about{
+    padding-right: 30px;
+}
+.about p{
+    text-align: justify;
+    margin-bottom: 30px;
+}
+.about a{
+    display: inline;  
+    color: #e74a2c;
+    text-decoration: none;
+    border: 1px solid #e74a2c;
+    border-radius: 24px;
+    padding: 8px 40px;
+    transition: .4s linear;
+}
+.about a:hover{
+    background-color: #e74a3c;
+    color: #fff;
+    transition: all .3s ease-in;
+}
+.sills{
+    padding-left: 30px;
+}
+.skill{
+    margin-bottom: 12px;
+}
+.progress-menu{
+      width: 100%;
+      height: 12px;
+      background: #ddd;
+      border-radius: 12px;
+}
+.progress-fa{
+    height: 12px;
+    border-radius: 12px;
+    background-color: #e74a3c;
+}
+.p1{
+    width: 90%;
+}
+.p2{
+    width: 80%;
+}
+.p3{
+    width: 78%;
+}
+.p4{
+    width: 74%;
+}
+.p5{
+    width: 54%;
+}
+.progress-fa span{
+    float: right;
+    margin-right: 6px;
+    line-height: 13px;
+    color: #f3f3f3;
+    font-size: 12px;
+}
+.third-section{
+    background-color: #f9f9f9;
+}
+.services{
+    text-align: center;
+}
+.hservice{
+    font-family: sans-serif;
+    letter-spacing: 1px;
+    padding-top: 100px;
+    font-size: 40px;
+}
+.hservice::after{
+    content:'';
+    background: #E74A3C;
+    display: block;
+    width: 150px;
+    height: 3px;
+    margin: 10px auto;
+}
+.icon{
+    margin: 40px auto;
+    padding: 20px 15px;
+    width: 100px;
+    height: 100px;
+    border: 2px solid #e74a3c;
+    border-radius: 50%;
+}
+.icon p{
+     padding: 25px;
+}
+.text-center:hover{
+     box-shadow: 5px 7px 9px -3px #c8c7c7; 
+     cursor: pointer;
+     transition: .5s linear;
+}
+.contact-section{
+    background-color: #f3f3f3;
+}
+.hcontact{
+    text-align: center;
+    font-family: sans-serif;
+    letter-spacing: 1px;
+    padding-top: 100px;
+    font-size: 40px;
+}
+.hcontact::after{
+    content:'';
+    background: #E74A3C;
+    display: block;
+    width: 150px;
+    height: 3px;
+    margin: 10px auto;
+}
+.conatct-btn{
+    margin: 10px 0;
+    padding: 8px;
+    background-color: #E74A3C;
+    color: #f1f1f1;
+    border: none;
+}
+.pop-p-up{
+    display: none;
+}
+.pop-s-up{
+    display: none;
+}
+
+
+@media screen and (max-width:700px){
+    .about-section-col{
+        flex: 100%;
+        margin: 10px 0;
+    }
+    .about, .sills{
+        padding: 0;
+    }
+    .about{
+        text-align: center;
+    }
+}
+
+
+
+
+
+
+
+
